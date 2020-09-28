@@ -1,0 +1,71 @@
+
+  $color-primary: black;
+body{
+  background-color: $color-primary;
+}
+h1 {
+    color: white;
+    font-family: 'Grandstander', italic;
+    text-align: center;
+    font-size: 85px;
+}
+p {
+  color: white;
+  font-size: 40px;
+  font-family: 'Noto Sans JP';
+}
+/* About Page*/
+#aboutText {
+  color: white;
+  font-family: 'Grandstander';
+  text-align: center;
+  padding: 50px 100px;
+}
+/* Button */
+#MenuBtn {
+  background-image: url('images/iconBtn.png');
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  padding: 14px 14px;
+  height: 20px;
+  width: 20px;
+}
+
+
+/* Images */
+#imgMain {
+    height:500px;
+    width:100%;
+    object-fit: fill;
+}
+#imgSecondary {
+  height:800px;
+  width:50%;
+  object-fit: fill;
+}
+#imgBear {
+  height: 50px;
+  width: 50px;
+}
+
+/* Nav Bar */
+a {
+  color:white;
+  font-size: 25px;
+  font-family: 'Grandstander';
+}
+#navBrand {
+  font-size: 40px;
+  font-family: 'Grandstander', italic;
+  color:white;
+}
+
+.card-text {
+  color: white;
+  font-size: 40px;
+  font-family: 'Noto Sans JP';
+  text-decoration: underline;
+}
